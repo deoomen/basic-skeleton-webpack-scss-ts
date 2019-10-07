@@ -8,6 +8,9 @@ class Home extends Main {
 
     constructor() {
         super();
+
+        this.loader.addStylesheet('home');
+        this.loader.loadContent();
     }
 
 }
