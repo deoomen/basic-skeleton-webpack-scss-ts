@@ -1,7 +1,7 @@
 {
-  "name": "skeleton-webpack",
+  "name": "basic-skeleton-webpack-scss-ts",
   "version": "1.0.0",
-  "description": "Basic skeleton for every project using Webpack that requires minimal customization",
+  "description": "Basic skeleton for every project using Webpack, Scss and TypeScript that requires minimal customization.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,22 +11,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deoomen/skeleton-webpack.git"
+    "url": "git+https://github.com/deoomen/basic-skeleton-webpack-scss-ts.git"
   },
   "keywords": [
     "webpack",
     "skeleton",
-    "template"
+    "template",
+    "scss",
+    "typescript",
+    "ts"
   ],
   "author": "deoomen",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/deoomen/skeleton-webpack/issues"
+    "url": "https://github.com/deoomen/basic-skeleton-webpack-scss-ts/issues"
   },
-  "homepage": "https://github.com/deoomen/skeleton-webpack#readme",
+  "homepage": "https://github.com/deoomen/basic-skeleton-webpack-scss-ts#readme",
   "devDependencies": {
     "autoprefixer": "latest",
     "clean-webpack-plugin": "latest",
+    "css-loader": "^3.2.0",
     "mini-css-extract-plugin": "latest",
     "node-sass": "latest",
     "optimize-css-assets-webpack-plugin": "latest",
