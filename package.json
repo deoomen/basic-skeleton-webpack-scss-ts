@@ -1,0 +1,39 @@
+{
+  "name": "skeleton-webpack",
+  "version": "1.0.0",
+  "description": "Basic skeleton for every project using Webpack that requires minimal customization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deoomen/skeleton-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "skeleton",
+    "template"
+  ],
+  "author": "deoomen",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/deoomen/skeleton-webpack/issues"
+  },
+  "homepage": "https://github.com/deoomen/skeleton-webpack#readme",
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "clean-webpack-plugin": "latest",
+    "mini-css-extract-plugin": "latest",
+    "node-sass": "latest",
+    "optimize-css-assets-webpack-plugin": "latest",
+    "postcss-loader": "latest",
+    "sass-loader": "latest",
+    "style-loader": "latest",
+    "terser-webpack-plugin": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  }
+}
