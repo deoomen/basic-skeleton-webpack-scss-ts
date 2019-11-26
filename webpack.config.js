@@ -10,7 +10,8 @@ module.exports = (env, argv) => {
     const config = {
         context: path.join(__dirname, 'resources'),
         entry: {
-            main: './main.ts',
+            main: './js/main.ts',
+            home: './js/pages/home.ts',
         },
         output: {
             path: path.resolve(__dirname, 'dist'),
